@@ -32,7 +32,7 @@ class Sketch : NSObject {
     func draw() {
         
         //clean up from the last time
-        canvas.fillColor = Color(hue: 0, saturation: 0, brightness: 100, alpha: 40)
+        canvas.fillColor = Color(hue: 0, saturation: 0, brightness: 100, alpha: -5)
         canvas.drawRectangle(bottomLeftX: 0, bottomLeftY: 0, width: 500, height: 500)
         // Change position
         x += 1

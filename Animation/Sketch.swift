@@ -36,7 +36,8 @@ class Sketch : NSObject {
         x3-=3
         x4+=3
         
-        // Draw an ellipse in the middle of the canvas
+        // Draw ellipses in the middle of the canvas
+        canvas.drawShapesWithBorders = false
         canvas.fillColor = Color.black
         canvas.drawEllipse(centreX: x, centreY: 250, width: 50, height: 50)
         canvas.fillColor = Color.red

@@ -21,14 +21,14 @@ class Sketch : NSObject {
         // Create canvas object – specify size
         canvas = Canvas(width: 500, height: 500)
         // Set starting position
-        x1 = 200
-        x2 = 200
-        x3 = 200
-        x4 = 200
-        y = 200
-        y1 = 200
-        y2 = 200
-        y3 = 200
+        x1 = 250
+        x2 = 250
+        x3 = 250
+        x4 = 250
+        y = 250
+        y1 = 250
+        y2 = 250
+        y3 = 250
         // No borders
         canvas.drawShapesWithBorders = false
     }
